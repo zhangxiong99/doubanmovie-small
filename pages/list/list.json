@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "v-item":"/components/movie-item/movie-item"
+  },
+  "navigationBarTitleText": "正在热映<<电影<<豆瓣"
+}

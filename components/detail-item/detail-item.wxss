@@ -1,0 +1,30 @@
+/* components/detail-item/detail-item.wxss */
+.item{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130rpx;
+}
+.bg{
+    height: 600rpx;
+    width: 500rpx;
+    margin-top:80rpx;
+}
+.item .title{
+    margin-left: 100rpx;
+    margin-top: 30rpx;
+    color: black;
+    font-size: 40rpx;
+}
+.item text{
+    color: #999;
+    font-size: 30rpx;
+    margin-top: 20rpx;
+}
+.foot{
+    margin-top: 50rpx;
+    margin-left: 100rpx;
+}
+.content{
+    color: #666;
+    font-size: 30rpx;
+}

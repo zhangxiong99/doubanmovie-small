@@ -1,0 +1,33 @@
+/* pages/list/list.wxss */
+.item{
+    display: flex;
+    justify-content: space-between;
+    height: 200rpx;
+    border-bottom: 1px solid rgb(219, 217, 217);
+}
+.bg image{
+    width: 140rpx;
+    height: 140rpx;
+    margin-top: 30rpx;
+    margin-left: 30rpx;
+    margin-right: 20rpx;
+}
+.detail{
+    width: 500rpx;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30rpx;
+}
+.detail text:not(:first-child){
+    color: #999;
+    font-size: 30rpx;
+    margin-top: 15rpx;
+}
+.score{
+    width: 100rpx;
+    margin-top: 20rpx;
+}
+.score text{
+    color: red;
+    font-size: 33rpx;
+}

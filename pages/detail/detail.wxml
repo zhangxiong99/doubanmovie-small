@@ -1,0 +1,14 @@
+<!--pages/detail/detail.wxml-->
+<view class="container" >
+    <view class="item">
+        <image class="bg" src="{{movies.images.small}}"></image>
+        <text class="title">{{movies.title}}({{movies.year}})</text>
+        <text>评分 ：{{movies.rating.average}}</text>
+        <text>导演 ：{{movies.directors[0].name}}</text>
+        <text>主演 ：<text wx:for="{{movies.casts}}" wx:key="item">  {{item.name}}  </text></text>
+    </view>
+    <view class="foot">
+        <view>摘要 ：</view>
+        <text class="content">{{movies.summary}}</text>
+    </view>
+</view>

@@ -1,0 +1,14 @@
+<!--components/movie-item/movie-item.wxml-->
+<view class="item" bind:tap="handleToggle">
+    <view class="bg">
+        <image src="{{data.pic}}"></image>
+    </view>
+    <view class="detail">
+        <text>{{data.title}}</text>
+        <text>{{data.subtitle}}({{data.year}})</text>
+        <text>导演：{{data.author}}</text>
+    </view> 
+    <view class="score">
+        <text>{{data.average}}</text>
+    </view>       
+</view>

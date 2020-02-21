@@ -1,0 +1,34 @@
+.bg{
+    height: 400rpx;
+}
+.head{
+    font-size: 60rpx;
+    font-weight: bold;
+    margin-left: 60rpx;
+    margin-top: 20rpx;
+}
+.subhead{
+    font-size: 30rpx;
+    color: #666;
+    margin-left: 60rpx;
+    margin-top: 30rpx;
+    margin-bottom: 50rpx;
+}
+.list{
+    width: 700rpx;
+    height: 100rpx;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30rpx;
+    margin-bottom: 20rpx;
+    line-height: 100rpx;
+}
+.list text{
+    margin-left: 30rpx;
+}
+.title{
+    font-size: 35rpx;
+}
+.icon{
+    color: #999;
+}

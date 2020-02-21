@@ -1,0 +1,5 @@
+
+<v-item wx:for="{{movies}}" wx:key="item" data="{{item}}">
+
+</v-item>
+    

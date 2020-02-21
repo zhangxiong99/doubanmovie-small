@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+    <image class="bg" src="/images/bg.jpg"></image>
+    <view class="head">豆瓣电影榜单集合</view>
+    <view class="subhead">最新，最IN的影视信息收集~</view>
+     <button class="list" wx:for="{{title}}" wx:key="item"
+     bind:tap="handleClick" data-index="{{index}}">
+          <text class="title">{{item}}</text><text class="icon">></text>
+     </button>
+        
+</view>
+  

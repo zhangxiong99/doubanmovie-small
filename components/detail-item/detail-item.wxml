@@ -1,0 +1,14 @@
+<view class="container" >
+    <view class="item">
+        <image class="bg" src="/images/bg.jpg"></image>
+        <text class="title">湄公河行动(2016)</text>
+        <text>评分 ：8.2</text>
+        <text>导演 ：林超贤</text>
+        <text>主演 ：张涵予 彭于晏 孙杨 陈宝国</text>
+    </view>
+    <view class="foot">
+        <view>摘要 ：</view>
+        <text class="content">wodidi dididiidididididi</text>
+    </view>
+</view>
+    
